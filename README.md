@@ -22,16 +22,16 @@ It demonstrates a complete data workflow:
 ```
 european-inflation-pipeline/
 │
-├── ingestion/ # Data extraction & loading scripts
+├── ingestion/
 │ └── fetch_eurostat.py
 │
-├── notebooks/ # Data analysis (Jupyter)
+├── notebooks/
 │ └── analysis.ipynb
 │
-├── outputs/ # Generated visualizations
+├── outputs/
 │ └── inflation_evolution.png
 │
-├── requirements.txt # Python dependencies
+├── requirements.txt
 └── .gitignore
 ```
 ---
