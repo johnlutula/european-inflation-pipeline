@@ -59,13 +59,15 @@ df["valeur_lisse"] = df["valeur"].rolling(window=12).mean()
 
 # Plot
 plt.figure()
+
 plt.plot(df["time"], df["valeur"], alpha=0.2, label="Raw data")
 plt.plot(df["time"], df["valeur_lisse"], label="Smoothed", linewidth=2)
-plt.legend()
+
 plt.title("Inflation in Europe over time")
 plt.xlabel("Time")
 plt.ylabel("Inflation (HICP)")
-plt.xticks(rotation=45)
-plt.tight_layout()
+#plt.xticks(rotation=45)
+#plt.tight_layout()
+plt.legend()
 
 plt.show()
