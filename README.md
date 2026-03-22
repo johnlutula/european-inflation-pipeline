@@ -19,7 +19,7 @@ It demonstrates a complete data workflow:
 ---
 
 ## 📂 Project Structure
-
+```
 european-inflation-pipeline/
 │
 ├── ingestion/ # Data extraction & loading scripts
@@ -33,7 +33,7 @@ european-inflation-pipeline/
 │
 ├── requirements.txt # Python dependencies
 └── .gitignore
-
+```
 ---
 
 ## 📈 Key Insights
@@ -56,4 +56,3 @@ pip install -r requirements.txt
 python ingestion/fetch_eurostat.py
 3. Open notebook:
 notebooks/analysis.ipynb
-
