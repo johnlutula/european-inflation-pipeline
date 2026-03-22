@@ -20,12 +20,19 @@ It demonstrates a complete data workflow:
 
 ## 📂 Project Structure
 
-financial-data-project/
+european-inflation-pipeline/
 │
-├── ingestion/        # Data extraction & loading scripts
-├── notebooks/        # Data analysis (Jupyter)
-├── outputs/          # Generated visualizations
-├── .gitignore
+├── ingestion/ # Data extraction & loading scripts
+│ └── fetch_eurostat.py
+│
+├── notebooks/ # Data analysis (Jupyter)
+│ └── analysis.ipynb
+│
+├── outputs/ # Generated visualizations
+│ └── inflation_evolution.png
+│
+├── requirements.txt # Python dependencies
+└── .gitignore
 
 ---
 
