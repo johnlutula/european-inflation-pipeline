@@ -72,3 +72,5 @@ plt.savefig("outputs/inflation_evolution.png")
 plt.legend()
 
 plt.show()
+
+df.to_csv("outputs/inflation_data.csv",index=False)

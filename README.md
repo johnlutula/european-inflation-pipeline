@@ -56,3 +56,4 @@ pip install -r requirements.txt
 python ingestion/fetch_eurostat.py
 3. Open notebook:
 notebooks/analysis.ipynb
+
