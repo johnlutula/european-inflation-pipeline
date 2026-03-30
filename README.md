@@ -48,6 +48,12 @@ european-inflation-pipeline/
 
 ---
 
+![Dashboard](## 📊 Dashboard Preview
+
+![Dashboard](outputs/dashboard_preview.png))
+
+---
+
 ## ⚙️ How to Run
 
 1. Install dependencies:
